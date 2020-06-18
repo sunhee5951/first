@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.youtube ul {width: 100%; margin-top: 50px; }
+.youtube ul li {box-sizing: border-box; margin-bottom: 40px; overflow: hidden; position: relative; }
+.youtube ul li .pic {width: 20%; height: 100%; float: left;background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 2px; position: absolute;top: 0px;
+ left: 0px; z-index: 2; }
+.youtube ul li .details {width: 80%; padding: 20px; box-sizing: border-box;float: right; }
+.youtube ul li .details h2 {font-family: 'Didact Gothic', sans-serif;
+margin-bottom: 5px; }
+.youtube ul li .details p {font-family: 'Didact Gothic', sans-serif;
+margin-bottom: 10px; }
+.youtube ul li .details span {font-family: 'Didact Gothic', sans-serif; }
+.youtube ul li .details::before {content: ''; display: block; width: 1000px; height: 104px; border: 1px solid #777; position: absolute; top: 10%; left: 13%; z-index: 1; border-radius: 5px; }

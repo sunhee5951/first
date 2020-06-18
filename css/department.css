@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+.department .division {
+    width: 100%;
+    height: 70vmin;
+    background: url(../img/department.png) no-repeat center top;
+    background-size: contain;
+    margin-top: 30px; }
+    .department .division ul {
+      opacity: 0;
+      transform: translateY(-3000px);
+      transition: 3s; }
+      .department .division ul li span {
+        display: block;
+        width: 40%;
+        height: 50px;
+        background: #000;
+        border-radius: 25px;
+        font: bold 13px/50px '맑은 고딕';
+        color: #fff;
+        text-align: center;
+        margin-bottom: 20px; }
+        .department .division ul li span::after {
+          content: '';
+          display: block;
+          width: 1px;
+          height: calc( (50px + 20px)*17 - (50px/2));
+          background: #aaa;
+          position: absolute;
+          top: 50px;
+          left: 50px; }
+      .department .division ul li ul li span {
+        background: #666;
+        transform: translateX(70px); }
+        .department .division ul li ul li span::before {
+          content: '';
+          display: block;
+          width: 20px;
+          height: 1px;
+          background: #aaa;
+          position: absolute;
+          top: 50%;
+          left: -20px; }
+      .department .division ul li ul li:nth-of-type(1) span::after {
+        display: none; }
+      .department .division ul li ul li:nth-of-type(2) span::after {
+        display: none; }
+      .department .division ul li ul li:nth-of-type(3) span::after {
+        height: calc( (50px + 20px)*2 - (50px/2)); }
+      .department .division ul li ul li:nth-of-type(4) span::after {
+        height: calc( (50px + 20px)*3 - (50px/2)); }
+      .department .division ul li ul li:nth-of-type(5) span::after {
+        height: calc( (50px + 20px)*2 - (50px/2)); }
+      .department .division ul li ul li:nth-of-type(6) span::after {
+        height: calc( (50px + 20px)*3 - (50px/2)); }
+      .department .division ul li ul li:nth-of-type(7) span::after {
+        height: calc( (50px + 20px)*2 - (50px/2)); }
+      .department .division ul li ul li ul li span {
+        background: #999;
+        transform: translateX(140px); }
+        .department .division ul li ul li ul li span::after {
+          display: none; }
+
+/* tablet */
+@media screen and (max-width:1179px){      
+}
+
+/* mobile */
+@media screen and (max-width:739px){   
+    .department .division {background:none; height:auto;} 
+    .department .division ul {opacity:1; transform:translateY(0px);}
+}

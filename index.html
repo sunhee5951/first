@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 첫번째 포트폴리오 </title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lora:wght@500&family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Roboto+Slab:wght@100&family=Alegreya+Sans&&family=Prata&family=Enriqueta&family=DM+Serif+Text&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/60d42fd791.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+    <script type="text/javascript" src="js/header.js"></script> 
+    <script type="text/javascript" src="js/visual.js"></script> 
+    <script type="text/javascript" src="js/content.js"></script> 
+    <script type="text/javascript" src="js/news.js"></script> 
+	<script src="js/myScroll.js"></script>
+	<script>
+        $(document).ready(function(){
+            $('.myScroll').myScroll({
+                btns : '#navi>li',
+                speed : 1000,
+                base : -300,
+                active : 'on'
+			});
+        });
+    </script>
+</head>
+<body>
+    <ul id="navi">
+        <li class='on'><a href="#header" >visual</a></li>
+        <li><a href="#banner">banner</a></li>
+		<li><a href="#content">content</a></li>
+		<li><a href="#icon">icon</a></li>
+		<li><a href="#news">news</a></li>
+    </ul>
+    
+    <section id="skip">
+        <a href="#gnb">주메뉴 바로가기</a>
+        <a href="#content">본문 바로가기</a>
+        <a href="#footer">하단메뉴 바로가기</a>
+    </section>
+
+    <header id="header" class="myScroll">
+        <div class="inner">
+            <h1><a href="index.html">PORTFOLIO</a></h1>
+            <nav>
+                <div>
+                    <p>CONSTRUCTION</p>
+                    <div class="triangle1"></div>
+                    <div class="triangle2"></div>
+                </div>
+                <ul id="gnb">
+                    <li>
+                        <a href="department.html">DEPARTMENT <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">CEO</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="community.html">COMMUNITY <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">All talks</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="members.html">MEMBERS <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Teams</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="gallery.html">GALLERY <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Picture</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="location.html">LOCATION <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Load</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="youtube.html">YOUTUBE <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Load</a></li>
+                            <li><a href="#">Design</a></li>
+                        </ul>
+                    </li>
+                    <li></li>
+                </ul>
+                
+                <ul id="util1">
+                    <li><p>The Future in a Construction. Worldwide.</p></li>
+                </ul>
+                
+                <ul id="util2">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">SNS</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="search"><i class="fas fa-search"></i></a>
+            <a href="#" class="btnCall">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </a>
+
+        </div>
+    </header>
+
+    <section class="gnbMenu">
+        <h1 class="hidden">gnbMenu</h1>
+        <div class="listMenu">
+            <ul class="gnblist">
+                <li><a href="#"><i class="fas fa-home"></i></a></li>
+                <li><a href="department.html">DEPARTMENT</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="community.html">COMMUNITY</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="members.html">MEMBERS</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="gallery.html">GALLERY</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="location.html">LOCATION</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="youtube.html">YOUTUBE</a><i class="fas fa-chevron-down"></i></li>
+            </ul>
+
+            <ul class="sns">
+                <li><a href="#"><i class="fab fa-blogger-b"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <figure id="visual">
+        <ul class="panel">
+            
+        </ul>
+
+        <ul class="navi">
+            <li class="on"><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+
+        <div id="motionBox">
+                <div class="motion1 on">
+                    <div class="txt">
+                        <h1>Design<br>Thinking<br>Overnights</h1>
+                    </div>
+                    <div class="left"></div>
+                    <div class="right">
+                        <p>WHEN THE MORNING DAWNS</p>
+                    </div>
+                </div>
+                <div class="motion2">
+                    <div class="txt">
+                        <h1>lorem<br>ipsumlor<br>consectetur</h1>
+                    </div>
+                    <div class="left"></div>
+                    <div class="right">
+                        <p>facere ad voluptatibus odit numquam</p>
+                    </div>
+                </div>
+                <div class="motion3">
+                    <div class="txt">
+                        <h1>adipisicing<br>autem<br>minima</h1>
+                    </div>
+                    <div class="left"></div>
+                    <div class="right">
+                        <p>laboriosam porro placeat</p>
+                    </div>
+                </div>
+        </div>
+    </figure>
+
+    <section id="banner" class="myScroll">
+        <div class="inner">
+            <h1>SERVICES</h1>
+            <p>All The Services Provided By Us</p>
+            <div class="wrap">
+                <article>
+                    <div class="pic">
+                        <img src="img/pic5.jpg" alt="노란색상단">
+                    </div>
+                    <h2>Here comes title.</h2>
+                    <p>Here comes content here in detail.</p>
+                    <a href="" class="ico"><i class="fas fa-search"></i></a>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="img/pic6.jpg" alt="노란색전등">
+                    </div>
+                    <h2>Here comes title.</h2>
+                    <p>Here comes content here in detail.</p>
+                    <a href="" class="ico"><i class="fas fa-search"></i></a>
+                </article>
+                <article>
+                    <div class="pic">
+                        <img src="img/pic1.jpg" alt="노란색의자">
+                    </div>
+                    <h2>Here comes title.</h2>
+                    <p>Here comes content here in detail.</p>
+                    <a href="" class="ico"><i class="fas fa-search"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="content" class="myScroll">
+        <div class="inner">
+            <h1>Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Quas, commodi.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo doloremque facere, voluptates, illo officia corrupti sequi fugit quidem veniam qui delectus id repellendus ipsam soluta cum explicabo dolorum expedita illum.</p>
+            <a href="#" class="btn">CLICK THIS BUTTON</a>
+
+            <div class="wrap">
+                <section class="picBox">
+                    <ul>
+                        <li class="p1 on">
+                            <h2>Chair</h2>
+                            <img src="img/img2.jfif" alt="노란색쇼파"/>
+                        </li>
+                        <li class="p2">
+                            <h2>Sofa</h2>
+                            <img src="img/img10.jfif" alt="노란색배게"/>
+                        </li>
+                        <li class="p3">
+                            <h2>Yellow</h2>
+                            <img src="img/img9.jfif" alt="노란색책"/>
+                        </li>
+                    </ul>
+                    <div></div>
+                </section>
+                
+                <div class="contentBox">
+                    <ul>
+                        <li>
+                            <a href=".p1" class="on">
+                                <span class="ico">
+                                    <svg viewBox="0 0 448 512"><path d="M112 128c0-29.5 16.2-55 40-68.9V256h48V48h48v208h48V59.1c23.8 13.9 40 39.4 40 68.9v128h48V128C384 57.3 326.7 0 256 0h-64C121.3 0 64 57.3 64 128v128h48zm334.3 213.9l-10.7-32c-4.4-13.1-16.6-21.9-30.4-21.9H42.7c-13.8 0-26 8.8-30.4 21.9l-10.7 32C-5.2 362.6 10.2 384 32 384v112c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V384h256v112c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V384c21.8 0 37.2-21.4 30.3-42.1z"></path></svg>
+                                </span>
+                                <strong>Here comes sub title.</strong>
+                                <p>Here comes content description in detail.Here comes content description in detail.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=".p2">
+                                <span class="ico">
+                                    <svg viewBox="0 0 640 512"><path d="M160 224v64h320v-64c0-35.3 28.7-64 64-64h32c0-53-43-96-96-96H160c-53 0-96 43-96 96h32c35.3 0 64 28.7 64 64zm416-32h-32c-17.7 0-32 14.3-32 32v96H128v-96c0-17.7-14.3-32-32-32H64c-35.3 0-64 28.7-64 64 0 23.6 13 44 32 55.1V432c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16v-16h384v16c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16V311.1c19-11.1 32-31.5 32-55.1 0-35.3-28.7-64-64-64z"></path></svg>
+                                </span>
+                                <strong>Here comes sub title.</strong>
+                                <p>Here comes content description in detail.Here comes content description in detail.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=".p3">
+                                <span class="ico">
+                                    <svg viewBox="0 0 448 512"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg>
+                                </span>
+                                <strong>Here comes sub title.</strong>
+                                <p>Here comes content description in detail.Here comes content description in detail.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="icon" class="myScroll">
+        <div class="inner">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="btn">VIEW DETAIL HERE</a>
+
+            <div class="wrap">
+                <article>
+                    <i class="fas fa-baby"></i>
+                    <p>icon buttn1</p>
+                </article>
+                <article>
+                    <i class="fas fa-yen-sign"></i>
+                    <p>icon buttn2</p>
+                </article>
+                <article>
+                    <i class="fas fa-baseball-ball"></i>
+                    <p>icon buttn3</p>
+                </article>
+                <article>
+                    <i class="fas fa-fax"></i>
+                    <p>icon buttn4</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="myScroll">
+        <div class="inner">
+            <h1>Authentic And Luxurious</h1>
+            <p>Eames Inspired Yellow Dining Chairs With Metal Cross Legs, New Arrival Hot Sofa</p>
+            <div class="wrap">
+                <ul>
+                    <li class="n3 abc">
+                        <article>
+                            <div class="pic">
+                                <img src="img/img15.jfif" alt="주황색배게">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                        <article>
+                            <div class="pic">
+                                <img src="img/img20.jpg" alt="주확색책">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                        <article>
+                            <div class="pic">
+                                <img src="img/img13.jfif" alt="주황색의자">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                    </li>
+                    <li class="n2">
+                        <article>
+                            <div class="pic">
+                                <img src="img/img18.jfif" alt="노란색책">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                        <article>
+                            <div class="pic">
+                                <img src="img/img11.jfif" alt="노란색방">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                        <article>
+                            <div class="pic">
+                                <img src="img/img6.jfif" alt="책">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                    </li>
+                    <li class="n1">
+                        <article>
+                            <div class="pic">
+                                <img src="img/img3.jfif" alt="노란색의자">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                        <article>
+                            <div class="pic">
+                                <img src="img/img14.jfif" alt="노란색그림">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                        <article>
+                            <div class="pic">
+                                <img src="img/img19.jfif" alt="노란색쇼파">
+                            </div>
+                            <h2>Here comes Sub title.</h2>
+                            <p>Content description comes here in detail.Content description comes here in detail.</p>
+                            <a href="#" class="btn">view more</a>
+                        </article>
+                    </li>
+                </ul>
+
+                <div class="newsBtn">
+                    <a href=".n1" class="on abc"></a>
+                    <a href=".n2"></a>
+                    <a href=".n3"></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom" >
+        <div class="inner">
+            <h1 class="hidden">Lorem.</h1>
+
+            <div class="wrap">
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt explicabo sapiente at <br><b>quaerat enim magnam.</b></p>
+                </article>
+                <article>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="pic"></div>
+                    <a href="#" class="btn">VIEW <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="inner">
+            <div class="upper">
+                <ul class="terms">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">License</a></li>
+                    <li><a href="#">Department</a></li>
+                    <li><a href="#">E-mail</a></li>
+                </ul>
+
+                <ul class="sns">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="lower">
+                <h1>DCODELAB</h1>
+                <address>Pacific Century Place Tower Level 45 SCBD Lot 10, <br>					
+                    Daerah Khusus Ibukota Jakarta 12190, 
+                    Indonesia</address>
+
+                <p>2020 DCODELAB Academy &copy; All right reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
+
+

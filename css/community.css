@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+
+.community {width: 100%;}
+.community  img {width:100%; height:350px; background-position: bottom;}
+.community>.inner>.searchBox { margin: 50px 0 60px; padding: 10px 55px;
+ border: 1px solid #e8e8e8; background: #fbfbfb; box-sizing: border-box; text-align: center;}
+.community>.inner>.searchBox select {width:80px; height:40px; font:13px/1 'arial'; color:#555; margin-right:10px;
+    border: 1px solid #e8e8e8; box-sizing: border-box;}
+.community>.inner>.searchBox input[type=text] {width:40%; height:40px; border: 1px solid #e8e8e8; margin-right:20px; padding:0px 20px; background:rgba(0,0,0,0.03);}
+.community>.inner>.searchBox button {border:none; background:#444; width:100px; height:40px; font:bold 14px/40px '맑은 고딕'; color:#fff; text-align:center; cursor:pointer; transition: 1s;}
+.community>.inner>.searchBox button:hover {background: #e8e8e8; color: #444;}
+.community>.inner>table {width:100%; border-top:2px solid #555; border-bottom:2px solid #555; margin-bottom:50px;}
+.community>.inner>table tr:nth-of-type(even) {background:rgba(0,0,0,0.03);}
+.community>.inner>table tr:hover {box-shadow: 5px 0px 10px #aaa;}
+.community>.inner>table tr td {transition:0.5s;}
+.community>.inner>table tr:hover td {text-shadow: #aaa; }
+.community>.inner>table tr:hover td a {text-decoration:underline; font-weight:bold;}
+.community>.inner>table tr th {border-bottom:1px solid #666; font:bold 16px/1 '맑은 고딕'; color:#444; letter-spacing:1px; padding:20px;}
+.community>.inner>table tr td {padding:20px; font:14px/1.3 '맑은 고딕'; color:#666; text-align:center;}
+.community>.inner>table tr th:nth-of-type(1) {width:10%;}
+.community>.inner>table tr th:nth-of-type(2) {width:60%;}
+.community>.inner>table tr th:nth-of-type(3) {width:15%;}
+.community>.inner>table tr th:nth-of-type(4) {width:15%;}
+.community>.inner>table tr td:nth-of-type(2) {text-align:left;}
+.community>.inner>.pagination {width:100%; text-align:center;}
+.community>.inner>.pagination::after {content:''; display:block; clear:both;}
+.community>.inner>.pagination .numbers {display:inline-block;}
+.community>.inner>.pagination .numbers a {display:inline-block; width:30px; height:30px; border:1px solid #aaa; font:12px/30px 'arial'; color:#888; transition:0.5s; border-radius: 30px;}
+.community>.inner>.pagination .numbers a:hover {background:#555; color:#fff;}
+.community>.inner>.pagination .numbers a.on {background:#555; color:#fff;}
+.community>.inner>.pagination .numbers a i {font-size: 13px;}
+
+
+
+/* tablet */
+@media screen and (max-width:1179px){ 
+
+    .community>.inner>table tr th:nth-of-type(1) {width:0%; display:none;}
+    .community>.inner>table tr th:nth-of-type(2) {width:80%;}
+    .community>.inner>table tr th:nth-of-type(3) {width:20%;}
+    .community>.inner>table tr th:nth-of-type(4) {width:0%; display:none;}
+    .community>.inner>table tr td:nth-of-type(1) {display:none;}
+    .community>.inner>table tr td:nth-of-type(4) {display:none;}
+}
+
+/* mobile */
+@media screen and (max-width:539px){   
+
+    .community>.inner>.searchBox {text-align:left;}
+    .community>.inner>.searchBox select {display:block; margin-right:0px; margin-bottom:10px;}
+    .community>.inner>.searchBox input[type=text] {width:100%; margin-right:0px; margin-bottom:10px;}
+    .community>.inner>.searchBox button {width:100%;}
+
+    .community>.inner>table tr th:nth-of-type(2) {width:100%;}
+    .community>.inner>table tr th:nth-of-type(3) {width:0%; display:none;}
+    .community>.inner>table tr td:nth-of-type(3) {display:none;}
+
+    .community>.inner>.pagination .numbers {display:none;}   
+}
