@@ -12,7 +12,7 @@ background-image: url(../img/back.png); background-size: cover;opacity: 0.8; bac
 #header_sub .inner {width: 1180px; height: 340px; margin: 0px auto; position: relative; transition: 0.5s; }
 #header_sub .inner > h1 {position: absolute; left: 50%; top: 30px;transform: translateX(-50%); }
 #header_sub .inner > h1 a {font: bold 28px/1 'arial'; color: #ddd; }
-#header_sub .inner #gnb_sub {width: 100%; position: absolute; top: 100px; left: 0px; border-top: 1px solid #ddd; }
+#header_sub .inner #gnb_sub {width: 101%; position: absolute; top: 100px; left: 0px; border-top: 1px solid #ddd; }
 #header_sub .inner #gnb_sub > li {width: calc(100% /6); height: 60px;float: left; position: relative; }
 #header_sub .inner #gnb_sub > li > a {display: block; width: 100%; height: 100%; font: bold 14px/60px 'arial'; color: #ddd; text-align: center; }
 #header_sub .inner #gnb_sub > li > a:hover {text-decoration: underline; color: #f8ba48; }
